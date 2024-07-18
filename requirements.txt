@@ -11,4 +11,6 @@ tqdm==4.31.1
 Pillow==7.2.0
 scikit_learn==0.23.2
 kaggle==1.5.6
--e git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git#egg=pytorch-gradual-warmup-lr
+torch==2.3.1
+-e git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git#egg=warmup-scheduler
+#-e git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git#egg=pytorch-gradual-warmup-lr
