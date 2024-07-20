@@ -2,7 +2,7 @@ torch==2.3.1
 albumentations==0.4.6
 resnest==0.0.6b20200823
 geffnet==0.9.8
-numpy==1.23.0
+numpy==1.18.1
 pandas==1.3.0
 efficientnet_pytorch==0.6.3
 adabound==0.0.5
