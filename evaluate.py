@@ -10,6 +10,7 @@ from tqdm import tqdm
 from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import StratifiedKFold
 import torch
+from torch.cuda.amp import autocast, GradScaler
 from torch.utils.data import DataLoader, Dataset
 import torch.nn as nn
 import torch.nn.functional as F
