@@ -1,4 +1,6 @@
-torch==2.3.1
+torch>=1.2.0
+torchvision>=0.4.0
+#torch==2.3.1
 albumentations==0.4.6
 resnest==0.0.6b20200823
 geffnet==0.9.8
